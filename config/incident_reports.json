@@ -1,0 +1,37 @@
+[
+    {
+        "timestamp": "2025-05-23T23:43:18.146289",
+        "ip": "172.16.0.26",
+        "action": "blocked",
+        "reason": "Suspicious activity detected",
+        "recommendation": "Review and consider adding to firewall rules"
+    },
+    {
+        "timestamp": "2025-05-23T23:44:19.460907",
+        "ip": "10.0.0.26",
+        "action": "blocked",
+        "reason": "Suspicious activity detected",
+        "recommendation": "Review and consider adding to firewall rules"
+    },
+    {
+        "timestamp": "2025-05-23T23:44:48.583593",
+        "ip": "172.16.0.32",
+        "action": "blocked",
+        "reason": "Suspicious activity detected",
+        "recommendation": "Review and consider adding to firewall rules"
+    },
+    {
+        "timestamp": "2025-05-24T08:49:27.379555",
+        "ip": "45.95.147.24",
+        "action": "blocked",
+        "reason": "Suspicious activity detected",
+        "recommendation": "Review and consider adding to firewall rules"
+    },
+    {
+        "timestamp": "2025-05-24T08:50:28.491389",
+        "ip": "40.76.54.132",
+        "action": "blocked",
+        "reason": "Suspicious activity detected",
+        "recommendation": "Review and consider adding to firewall rules"
+    }
+]

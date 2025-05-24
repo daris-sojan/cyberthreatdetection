@@ -1,0 +1,26 @@
+{
+    "brute_force": {
+        "max_attempts": 3,
+        "time_window": 300
+    },
+    "scanning": {
+        "max_users": 5,
+        "time_window": 600
+    },
+    "suspicious_login": {
+        "max_ips_per_hour": 3,
+        "time_window": 3600
+    },
+    "impossible_travel": {
+        "min_time_between_logins": 3600,
+        "max_zones_per_hour": 2
+    },
+    "unusual_time": {
+        "business_hours_start": 8,
+        "business_hours_end": 18
+    },
+    "credential_guessing": {
+        "max_failed_attempts": 3,
+        "time_window": 120
+    }
+} 

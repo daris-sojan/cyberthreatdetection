@@ -1,0 +1,27 @@
+{
+    "suspicious_thresholds": {
+        "failed_attempts": 3,
+        "ip_changes": 3,
+        "time_deviation": 2,
+        "success_rate": 0.3,
+        "rapid_attempts": 60,
+        "multiple_users": 3
+    },
+    "profile_window": 30,
+    "update_frequency": 3600,
+    "risk_thresholds": {
+        "high_risk": 0.7,
+        "medium_risk": 0.4,
+        "low_risk": 0.2
+    },
+    "geographic_settings": {
+        "max_distance_km": 1000,
+        "time_threshold_hours": 1
+    },
+    "notification_settings": {
+        "high_risk_alert": true,
+        "medium_risk_alert": true,
+        "low_risk_alert": false,
+        "alert_cooldown": 3600
+    }
+} 

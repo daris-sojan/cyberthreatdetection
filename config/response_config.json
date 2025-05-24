@@ -1,0 +1,20 @@
+{
+    "email": {
+        "enabled": false,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender": "alerts@example.com",
+        "password": "",
+        "recipients": ["admin@example.com"]
+    },
+    "slack": {
+        "enabled": false,
+        "webhook_url": ""
+    },
+    "actions": {
+        "block_ip": true,
+        "notify_admin": true,
+        "log_incident": true
+    },
+    "block_duration": 3600
+} 

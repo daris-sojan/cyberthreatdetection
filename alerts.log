@@ -1,0 +1,313 @@
+2025-05-23 19:42:06,009 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 19:42:09,024 - INFO - Successful login for user user2 from IP 192.168.1.50
+2025-05-23 19:42:14,139 - INFO - Successful login for user admin from IP 10.0.0.20
+2025-05-23 19:42:19,219 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 19:42:22,280 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 19:42:25,839 - INFO - Successful login for user guest from IP 10.0.0.15
+2025-05-23 19:42:28,919 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:17:43,343 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:17:44,317 - INFO - Failed login attempt for user user1 from IP 40.76.54.131
+2025-05-23 23:17:48,403 - INFO - Successful login for user system from IP 192.168.1.105
+2025-05-23 23:17:51,977 - INFO - Failed login attempt for user guest from IP 203.0.113.46
+2025-05-23 23:17:57,107 - INFO - Successful login for user root from IP 10.0.0.24
+2025-05-23 23:17:59,158 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:17:59,160 - INFO - Successful login for user root from IP 10.0.0.20
+2025-05-23 23:17:59,160 - INFO - Successful login for user user1 from IP 172.16.0.29
+2025-05-23 23:18:03,234 - INFO - Successful login for user user2 from IP 172.16.0.30
+2025-05-23 23:18:07,336 - INFO - Successful login for user guest from IP 10.0.0.23
+2025-05-23 23:18:11,438 - INFO - Successful login for user user2 from IP 192.168.1.103
+2025-05-23 23:18:16,050 - INFO - Failed login attempt for user admin from IP 172.16.0.31
+2025-05-23 23:18:21,135 - INFO - Successful login for user user1 from IP 185.143.223.15
+2025-05-23 23:18:26,240 - INFO - Failed login attempt for user admin from IP 40.76.54.131
+2025-05-23 23:18:26,241 - INFO - Failed login attempt for user admin from IP 40.76.54.131
+2025-05-23 23:18:26,242 - WARNING - [Brute Force] User: admin IP: 40.76.54.131 - Multiple failed login attempts (3)
+2025-05-23 23:18:26,250 - ERROR - Failed to block IP 40.76.54.131: [WinError 2] The system cannot find the file specified
+2025-05-23 23:18:26,256 - WARNING - [Brute Force] User: admin IP: 40.76.54.131 - Multiple failed login attempts (4)
+2025-05-23 23:18:26,266 - ERROR - Failed to block IP 40.76.54.131: [WinError 2] The system cannot find the file specified
+2025-05-23 23:18:26,268 - INFO - Failed login attempt for user admin from IP 172.16.0.28
+2025-05-23 23:18:31,376 - INFO - Failed login attempt for user system from IP 192.168.1.106
+2025-05-23 23:18:33,419 - INFO - Successful login for user system from IP 35.186.224.49
+2025-05-23 23:18:36,474 - INFO - Failed login attempt for user guest from IP 172.16.0.32
+2025-05-23 23:18:41,084 - WARNING - [Impossible Travel] User root logged in from 172.16.0.32
+2025-05-23 23:18:46,183 - INFO - Failed login attempt for user system from IP 192.168.1.103
+2025-05-23 23:18:50,277 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'172.16.0.32', '10.0.0.24', '10.0.0.20', '10.0.0.21'}
+2025-05-23 23:18:55,402 - WARNING - [Impossible Travel] User user1 logged in from 172.16.0.28
+2025-05-23 23:18:58,456 - INFO - Failed login attempt for user guest from IP 52.32.178.9
+2025-05-23 23:18:59,986 - INFO - Failed login attempt for user user1 from IP 203.0.113.79
+2025-05-23 23:18:59,987 - INFO - Failed login attempt for user user1 from IP 203.0.113.79
+2025-05-23 23:18:59,987 - WARNING - [Brute Force] User: user1 IP: 203.0.113.79 - Multiple failed login attempts (3)
+2025-05-23 23:18:59,999 - ERROR - Failed to block IP 203.0.113.79: [WinError 2] The system cannot find the file specified
+2025-05-23 23:19:00,002 - WARNING - [Brute Force] User: user1 IP: 203.0.113.79 - Multiple failed login attempts (4)
+2025-05-23 23:19:00,015 - ERROR - Failed to block IP 203.0.113.79: [WinError 2] The system cannot find the file specified
+2025-05-23 23:19:00,017 - WARNING - [Suspicious] Multiple successful logins for user user1 from different IPs in last hour: {'203.0.113.79', '172.16.0.28', '185.143.223.15', '172.16.0.29'}
+2025-05-23 23:19:01,555 - INFO - Failed login attempt for user system from IP 203.0.113.46
+2025-05-23 23:19:05,638 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:19:08,195 - INFO - Successful login for user guest from IP 192.168.1.101
+2025-05-23 23:19:10,247 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:21:06,883 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:21:07,871 - INFO - Successful login for user system from IP 192.168.1.105
+2025-05-23 23:21:12,451 - INFO - Successful login for user system from IP 192.168.1.105
+2025-05-23 23:21:15,515 - WARNING - [Impossible Travel] User system logged in from 203.0.113.46
+2025-05-23 23:21:18,550 - INFO - Successful login for user user2 from IP 172.16.0.31
+2025-05-23 23:21:21,619 - INFO - Failed login attempt for user system from IP 192.168.1.109
+2025-05-23 23:21:21,620 - INFO - Failed login attempt for user system from IP 192.168.1.109
+2025-05-23 23:21:21,621 - INFO - Failed login attempt for user user3 from IP 192.168.1.109
+2025-05-23 23:21:21,622 - WARNING - [Brute Force] User: system IP: 192.168.1.109 - Multiple failed login attempts (3)
+2025-05-23 23:21:22,590 - ERROR - Failed to block IP 192.168.1.109: Command '['netsh', 'advfirewall', 'firewall', 'add', 'rule', 'name=BlockIP_192.168.1.109', 'dir=in', 'action=block', 'remoteip=192.168.1.109']' returned non-zero exit status 1.
+2025-05-23 23:21:22,591 - INFO - Failed login attempt for user root from IP 192.168.1.109
+2025-05-23 23:21:22,592 - INFO - Failed login attempt for user user1 from IP 192.168.1.109
+2025-05-23 23:21:22,593 - INFO - Successful login for user guest from IP 172.16.0.31
+2025-05-23 23:21:25,658 - WARNING - [Impossible Travel] User system logged in from 192.168.1.102
+2025-05-23 23:21:29,727 - INFO - Successful login for user user2 from IP 172.16.0.31
+2025-05-23 23:21:31,782 - WARNING - [Unusual Login Time] User user2 logged in from 172.16.0.29
+2025-05-23 23:21:34,846 - WARNING - [Suspicious] Multiple successful logins for user system from different IPs in last hour: {'172.16.0.26', '192.168.1.105', '192.168.1.102', '203.0.113.46'}
+2025-05-23 23:21:38,933 - INFO - Failed login attempt for user root from IP 10.0.0.21
+2025-05-23 23:21:40,970 - INFO - Failed login attempt for user guest from IP 10.0.0.24
+2025-05-23 23:21:45,557 - INFO - Successful login for user admin from IP 192.168.1.103
+2025-05-23 23:21:46,583 - INFO - Failed login attempt for user guest from IP 203.0.113.92
+2025-05-23 23:21:46,583 - INFO - Failed login attempt for user root from IP 203.0.113.92
+2025-05-23 23:21:46,585 - INFO - Failed login attempt for user admin from IP 203.0.113.92
+2025-05-23 23:21:46,585 - INFO - Failed login attempt for user user1 from IP 203.0.113.92
+2025-05-23 23:21:46,586 - WARNING - [Scanning] Multiple failed login attempts on different users (5) from IP 203.0.113.92
+2025-05-23 23:21:46,587 - WARNING - [Scanning] Multiple failed login attempts on different users (5) from IP 203.0.113.92
+2025-05-23 23:21:48,626 - INFO - Successful login for user guest from IP 192.168.1.105
+2025-05-23 23:21:53,726 - INFO - Successful login for user user1 from IP 185.143.223.16
+2025-05-23 23:21:55,774 - INFO - Successful login for user user3 from IP 192.168.1.106
+2025-05-23 23:21:59,865 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:22:04,988 - INFO - Successful login for user root from IP 192.168.1.104
+2025-05-23 23:22:07,551 - WARNING - [Impossible Travel] User guest logged in from 172.16.0.28
+2025-05-23 23:22:12,677 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:22:16,765 - WARNING - [Impossible Travel] User guest logged in from 192.168.1.105
+2025-05-23 23:22:18,812 - WARNING - [Suspicious] Multiple successful logins for user system from different IPs in last hour: {'192.168.1.105', '192.168.1.102', '172.16.0.26', '172.16.0.31', '203.0.113.46'}
+2025-05-23 23:26:58,886 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:27:28,521 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:27:29,493 - INFO - Failed login attempt for user user1 from IP 192.168.1.109
+2025-05-23 23:27:31,529 - INFO - Failed login attempt for user user2 from IP 192.168.1.104
+2025-05-23 23:27:33,577 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:27:35,626 - INFO - Successful login for user guest from IP 192.168.1.106
+2025-05-23 23:27:39,709 - INFO - Successful login for user user1 from IP 198.51.100.58
+2025-05-23 23:27:43,799 - INFO - Failed login attempt for user user2 from IP 172.16.0.27
+2025-05-23 23:27:45,340 - INFO - Successful login for user user2 from IP 40.76.54.132
+2025-05-23 23:27:47,392 - INFO - Successful login for user system from IP 203.0.113.78
+2025-05-23 23:27:49,441 - INFO - Successful login for user user3 from IP 192.168.1.102
+2025-05-23 23:27:53,520 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:27:53,521 - INFO - Successful login for user root from IP 10.0.0.20
+2025-05-23 23:27:54,531 - INFO - Failed login attempt for user guest from IP 10.0.0.26
+2025-05-23 23:27:59,617 - INFO - Successful login for user user2 from IP 172.16.0.30
+2025-05-23 23:28:04,717 - INFO - Successful login for user admin from IP 172.16.0.26
+2025-05-23 23:28:06,775 - INFO - Successful login for user system from IP 10.0.0.26
+2025-05-23 23:28:11,846 - INFO - Successful login for user guest from IP 35.186.224.49
+2025-05-23 23:28:14,916 - WARNING - [Impossible Travel] User guest logged in from 10.0.0.26
+2025-05-23 23:28:19,514 - WARNING - [Impossible Travel] User system logged in from 172.16.0.28
+2025-05-23 23:28:22,560 - WARNING - [Suspicious] Multiple successful logins for user guest from different IPs in last hour: {'35.186.224.49', '192.168.1.102', '192.168.1.106', '10.0.0.26'}
+2025-05-23 23:28:26,651 - INFO - Failed login attempt for user user3 from IP 172.16.0.27
+2025-05-23 23:28:26,652 - INFO - Failed login attempt for user user2 from IP 172.16.0.27
+2025-05-23 23:28:26,652 - INFO - Failed login attempt for user system from IP 172.16.0.27
+2025-05-23 23:28:26,653 - INFO - Failed login attempt for user system from IP 172.16.0.27
+2025-05-23 23:28:26,654 - INFO - Failed login attempt for user user1 from IP 172.16.0.27
+2025-05-23 23:28:26,656 - INFO - Failed login attempt for user user3 from IP 172.16.0.27
+2025-05-23 23:28:27,674 - WARNING - [Impossible Travel] User user2 logged in from 10.0.0.21
+2025-05-23 23:34:25,287 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:34:28,302 - INFO - Successful login for user guest from IP 10.0.0.20
+2025-05-23 23:34:30,356 - INFO - Successful login for user system from IP 192.168.1.110
+2025-05-23 23:34:35,454 - INFO - Successful login for user user3 from IP 192.168.1.108
+2025-05-23 23:34:38,527 - INFO - Successful login for user root from IP 10.0.0.25
+2025-05-23 23:34:40,562 - INFO - Failed login attempt for user guest from IP 203.0.113.91
+2025-05-23 23:34:42,096 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:34:42,099 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:34:42,103 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:34:42,104 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:34:42,106 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:34:45,151 - INFO - Successful login for user system from IP 203.0.113.91
+2025-05-23 23:34:49,240 - INFO - Failed login attempt for user system from IP 203.0.113.47
+2025-05-23 23:34:51,277 - INFO - Successful login for user root from IP 192.168.1.110
+2025-05-23 23:34:54,388 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:34:59,481 - INFO - Successful login for user admin from IP 172.16.0.26
+2025-05-23 23:35:01,532 - WARNING - [Impossible Travel] User root logged in from 10.0.0.27
+2025-05-23 23:35:05,610 - INFO - Successful login for user user1 from IP 172.16.0.29
+2025-05-23 23:35:09,703 - INFO - Successful login for user user1 from IP 192.168.1.105
+2025-05-23 23:35:14,329 - INFO - Failed login attempt for user root from IP 198.51.100.25
+2025-05-23 23:35:17,395 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'172.16.0.28', '10.0.0.25', '192.168.1.110', '10.0.0.27'}
+2025-05-23 23:35:21,479 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'172.16.0.28', '10.0.0.25', '192.168.1.110', '10.0.0.27'}
+2025-05-23 23:35:22,512 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:35:22,514 - INFO - Successful login for user guest from IP 10.0.0.20
+2025-05-23 23:35:24,547 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'172.16.0.28', '10.0.0.26', '10.0.0.25', '192.168.1.110', '10.0.0.27'}
+2025-05-23 23:35:29,666 - INFO - Successful login for user user3 from IP 35.186.224.49
+2025-05-23 23:35:31,703 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'172.16.0.28', '10.0.0.26', '10.0.0.25', '192.168.1.110', '10.0.0.27', '172.16.0.26'}
+2025-05-23 23:39:05,999 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:39:07,977 - INFO - Successful login for user admin from IP 192.168.1.104
+2025-05-23 23:39:13,063 - INFO - Successful login for user system from IP 192.168.1.102
+2025-05-23 23:39:16,142 - INFO - Successful login for user user1 from IP 10.0.0.26
+2025-05-23 23:39:17,680 - INFO - Successful login for user user3 from IP 192.168.1.105
+2025-05-23 23:39:20,759 - INFO - Successful login for user root from IP 192.168.1.110
+2025-05-23 23:39:23,809 - INFO - Successful login for user root from IP 203.0.113.79
+2025-05-23 23:39:26,876 - INFO - Successful login for user system from IP 192.168.1.101
+2025-05-23 23:39:28,926 - INFO - Failed login attempt for user user3 from IP 198.51.100.24
+2025-05-23 23:39:28,927 - INFO - Failed login attempt for user root from IP 198.51.100.24
+2025-05-23 23:39:28,927 - INFO - Failed login attempt for user user3 from IP 198.51.100.24
+2025-05-23 23:39:28,928 - INFO - Failed login attempt for user system from IP 198.51.100.24
+2025-05-23 23:39:28,928 - INFO - Failed login attempt for user user1 from IP 198.51.100.24
+2025-05-23 23:39:28,929 - WARNING - [Scanning] Multiple failed login attempts on different users (5) from IP 198.51.100.24
+2025-05-23 23:39:31,985 - INFO - Successful login for user guest from IP 192.168.1.105
+2025-05-23 23:39:36,076 - INFO - Successful login for user user1 from IP 192.168.1.103
+2025-05-23 23:39:38,125 - INFO - Successful login for user user2 from IP 192.168.1.101
+2025-05-23 23:39:42,216 - INFO - Failed login attempt for user admin from IP 192.168.1.103
+2025-05-23 23:39:44,767 - WARNING - [Impossible Travel] User user1 logged in from 185.143.223.15
+2025-05-23 23:39:48,870 - INFO - Failed login attempt for user system from IP 192.168.1.109
+2025-05-23 23:39:48,870 - INFO - Failed login attempt for user guest from IP 192.168.1.109
+2025-05-23 23:39:48,871 - INFO - Failed login attempt for user user2 from IP 192.168.1.109
+2025-05-23 23:39:48,871 - INFO - Failed login attempt for user system from IP 192.168.1.109
+2025-05-23 23:39:48,872 - INFO - Failed login attempt for user user3 from IP 192.168.1.109
+2025-05-23 23:39:48,872 - INFO - Failed login attempt for user guest from IP 192.168.1.109
+2025-05-23 23:39:49,895 - WARNING - [Impossible Travel] User root logged in from 172.16.0.32
+2025-05-23 23:39:53,997 - WARNING - [Suspicious] Multiple successful logins for user user1 from different IPs in last hour: {'10.0.0.26', '203.0.113.93', '192.168.1.103', '185.143.223.15'}
+2025-05-23 23:39:58,088 - INFO - Successful login for user user3 from IP 172.16.0.27
+2025-05-23 23:40:02,172 - WARNING - [Impossible Travel] User system logged in from 172.16.0.29
+2025-05-23 23:40:06,766 - INFO - Failed login attempt for user system from IP 203.0.113.93
+2025-05-23 23:42:55,212 - INFO - server listening on 0.0.0.0:8765
+2025-05-23 23:42:58,234 - INFO - Failed login attempt for user root from IP 45.95.147.22
+2025-05-23 23:43:01,296 - INFO - Successful login for user admin from IP 203.0.113.91
+2025-05-23 23:43:06,380 - INFO - Successful login for user system from IP 10.0.0.22
+2025-05-23 23:43:11,472 - INFO - Successful login for user guest from IP 192.168.1.102
+2025-05-23 23:43:13,519 - INFO - Successful login for user root from IP 192.168.1.110
+2025-05-23 23:43:17,628 - INFO - Failed login attempt for user admin from IP 203.0.113.46
+2025-05-23 23:43:18,142 - INFO - Failed login attempt for user guest from IP 172.16.0.26
+2025-05-23 23:43:18,143 - INFO - Failed login attempt for user guest from IP 172.16.0.26
+2025-05-23 23:43:18,144 - WARNING - [Brute Force] User: guest IP: 172.16.0.26 - Multiple failed login attempts (3)
+2025-05-23 23:43:18,146 - INFO - Blocked IP: 172.16.0.26
+2025-05-23 23:43:18,150 - WARNING - [Brute Force] User: guest IP: 172.16.0.26 - Multiple failed login attempts (4)
+2025-05-23 23:43:22,227 - INFO - Failed login attempt for user admin from IP 192.168.1.104
+2025-05-23 23:43:26,319 - INFO - Successful login for user admin from IP 192.168.1.101
+2025-05-23 23:43:31,419 - INFO - Failed login attempt for user user3 from IP 198.51.100.23
+2025-05-23 23:43:34,477 - INFO - Failed login attempt for user admin from IP 172.16.0.27
+2025-05-23 23:43:38,545 - INFO - Successful login for user guest from IP 192.168.1.110
+2025-05-23 23:43:41,606 - INFO - Successful login for user user2 from IP 10.0.0.20
+2025-05-23 23:43:45,690 - INFO - Successful login for user user3 from IP 10.0.0.21
+2025-05-23 23:43:48,257 - INFO - Failed login attempt for user system from IP 185.143.223.16
+2025-05-23 23:43:50,302 - INFO - Failed login attempt for user user3 from IP 172.16.0.30
+2025-05-23 23:43:53,365 - INFO - Successful login for user root from IP 203.0.113.78
+2025-05-23 23:43:55,417 - INFO - Successful login for user user3 from IP 192.168.1.103
+2025-05-23 23:43:57,470 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:43:57,471 - INFO - Successful login for user system from IP 10.0.0.20
+2025-05-23 23:43:59,509 - WARNING - [Impossible Travel] User root logged in from 10.0.0.25
+2025-05-23 23:44:02,578 - WARNING - [Impossible Travel] User guest logged in from 172.16.0.27
+2025-05-23 23:44:06,671 - WARNING - [Impossible Travel] User admin logged in from 10.0.0.22
+2025-05-23 23:44:08,713 - WARNING - [Unusual Login Time] User user3 logged in from 192.168.1.101
+2025-05-23 23:44:13,310 - INFO - Successful login for user user2 from IP 172.16.0.30
+2025-05-23 23:44:17,407 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'45.95.147.22', '203.0.113.78', '10.0.0.25', '192.168.1.110'}
+2025-05-23 23:44:19,458 - INFO - Failed login attempt for user user3 from IP 10.0.0.26
+2025-05-23 23:44:19,459 - INFO - Failed login attempt for user user3 from IP 10.0.0.26
+2025-05-23 23:44:19,459 - WARNING - [Brute Force] User: user3 IP: 10.0.0.26 - Multiple failed login attempts (3)
+2025-05-23 23:44:19,460 - INFO - Blocked IP: 10.0.0.26
+2025-05-23 23:44:19,463 - WARNING - [Brute Force] User: user3 IP: 10.0.0.26 - Multiple failed login attempts (4)
+2025-05-23 23:44:19,464 - INFO - Failed login attempt for user user2 from IP 192.168.1.105
+2025-05-23 23:44:21,499 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'45.95.147.22', '203.0.113.78', '10.0.0.25', '10.0.0.26', '192.168.1.110'}
+2025-05-23 23:44:24,571 - WARNING - [Impossible Travel] User user2 logged in from 10.0.0.21
+2025-05-23 23:44:29,673 - INFO - Successful login for user user1 from IP 192.168.1.110
+2025-05-23 23:44:32,747 - INFO - Failed login attempt for user root from IP 203.0.113.93
+2025-05-23 23:44:34,787 - WARNING - [Suspicious] Multiple successful logins for user user2 from different IPs in last hour: {'10.0.0.20', '10.0.0.21', '192.168.1.107', '172.16.0.30'}
+2025-05-23 23:44:39,379 - WARNING - [Impossible Travel] User system logged in from 192.168.1.107
+2025-05-23 23:44:42,447 - WARNING - [Suspicious] Multiple successful logins for user user2 from different IPs in last hour: {'192.168.1.107', '10.0.0.20', '10.0.0.21', '172.16.0.30', '172.16.0.29'}
+2025-05-23 23:44:45,507 - WARNING - [Suspicious] Multiple successful logins for user guest from different IPs in last hour: {'192.168.1.102', '172.16.0.27', '192.168.1.109', '192.168.1.110'}
+2025-05-23 23:44:47,556 - WARNING - [Suspicious] Multiple successful logins for user guest from different IPs in last hour: {'192.168.1.109', '192.168.1.102', '192.168.1.108', '192.168.1.110', '172.16.0.27'}
+2025-05-23 23:44:48,581 - INFO - Failed login attempt for user admin from IP 172.16.0.32
+2025-05-23 23:44:48,582 - INFO - Failed login attempt for user admin from IP 172.16.0.32
+2025-05-23 23:44:48,582 - WARNING - [Brute Force] User: admin IP: 172.16.0.32 - Multiple failed login attempts (3)
+2025-05-23 23:44:48,583 - INFO - Blocked IP: 172.16.0.32
+2025-05-23 23:44:48,585 - WARNING - [Brute Force] User: admin IP: 172.16.0.32 - Multiple failed login attempts (4)
+2025-05-23 23:44:48,586 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'192.168.1.101', '10.0.0.22', '203.0.113.91', '172.16.0.32'}
+2025-05-23 23:44:52,680 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-23 23:44:55,753 - WARNING - [Suspicious] Multiple successful logins for user guest from different IPs in last hour: {'192.168.1.109', '192.168.1.102', '192.168.1.101', '192.168.1.108', '192.168.1.110', '172.16.0.27'}
+2025-05-23 23:44:58,832 - INFO - Failed login attempt for user user2 from IP 192.168.1.103
+2025-05-23 23:45:02,906 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'45.95.147.22', '203.0.113.78', '10.0.0.25', '10.0.0.26', '192.168.1.110', '203.0.113.47'}
+2025-05-23 23:45:04,943 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'10.0.0.22', '172.16.0.32', '203.0.113.91', '192.168.1.101', '10.0.0.26'}
+2025-05-23 23:45:09,544 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'10.0.0.22', '172.16.0.32', '192.168.1.105', '203.0.113.91', '192.168.1.101', '10.0.0.26'}
+2025-05-23 23:45:11,589 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'10.0.0.22', '172.16.0.32', '192.168.1.105', '203.0.113.91', '192.168.1.101', '10.0.0.26', '203.0.113.46'}
+2025-05-23 23:45:13,637 - WARNING - [Suspicious] Multiple successful logins for user guest from different IPs in last hour: {'192.168.1.109', '192.168.1.102', '192.168.1.104', '192.168.1.101', '192.168.1.108', '192.168.1.110', '172.16.0.27'}
+2025-05-23 23:45:16,716 - INFO - Failed login attempt for user root from IP 172.16.0.28
+2025-05-23 23:45:18,246 - INFO - Failed login attempt for user user3 from IP 10.0.0.22
+2025-05-23 23:45:18,247 - INFO - Failed login attempt for user user1 from IP 10.0.0.22
+2025-05-23 23:45:18,247 - INFO - Failed login attempt for user user1 from IP 10.0.0.22
+2025-05-23 23:45:18,248 - INFO - Failed login attempt for user guest from IP 10.0.0.22
+2025-05-23 23:45:18,248 - INFO - Failed login attempt for user user2 from IP 10.0.0.22
+2025-05-23 23:45:18,249 - WARNING - [Scanning] Multiple failed login attempts on different users (5) from IP 10.0.0.22
+2025-05-23 23:45:18,764 - INFO - Failed login attempt for user user2 from IP 192.168.1.102
+2025-05-23 23:45:20,813 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'10.0.0.22', '52.32.178.9', '172.16.0.32', '192.168.1.105', '203.0.113.91', '192.168.1.101', '10.0.0.26', '203.0.113.46'}
+2025-05-23 23:45:22,857 - WARNING - [Suspicious] Multiple successful logins for user system from different IPs in last hour: {'10.0.0.22', '10.0.0.20', '192.168.1.107', '192.168.1.108'}
+2025-05-23 23:45:25,917 - WARNING - [Suspicious] Multiple successful logins for user system from different IPs in last hour: {'10.0.0.22', '192.168.1.107', '10.0.0.20', '192.168.1.108', '172.16.0.27'}
+2025-05-23 23:45:30,013 - WARNING - [Suspicious] Multiple successful logins for user user3 from different IPs in last hour: {'192.168.1.101', '10.0.0.21', '172.16.0.31', '192.168.1.103'}
+2025-05-23 23:45:31,546 - INFO - Successful login for user user1 from IP 172.16.0.26
+2025-05-23 23:45:33,594 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 172.16.0.25
+2025-05-23 23:45:37,680 - WARNING - [Impossible Travel] User user1 logged in from 10.0.0.26
+2025-05-23 23:45:42,784 - WARNING - [Suspicious] Multiple successful logins for user user2 from different IPs in last hour: {'192.168.1.107', '10.0.0.20', '10.0.0.21', '172.16.0.30', '192.168.1.110', '172.16.0.29'}
+2025-05-23 23:45:44,839 - WARNING - [Suspicious] Multiple successful logins for user user2 from different IPs in last hour: {'192.168.1.107', '10.0.0.20', '10.0.0.21', '172.16.0.30', '192.168.1.110', '172.16.0.29'}
+2025-05-23 23:45:47,910 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'10.0.0.22', '52.32.178.9', '172.16.0.32', '192.168.1.105', '203.0.113.91', '192.168.1.101', '10.0.0.26', '203.0.113.46', '198.51.100.23'}
+2025-05-23 23:45:50,968 - WARNING - [Suspicious] Multiple successful logins for user user3 from different IPs in last hour: {'10.0.0.21', '192.168.1.101', '198.51.100.23', '192.168.1.103', '172.16.0.31'}
+2025-05-24 00:15:33,676 - INFO - server listening on 0.0.0.0:8765
+2025-05-24 00:15:36,184 - INFO - Successful login for user root from IP 172.16.0.29
+2025-05-24 00:15:41,312 - INFO - Successful login for user root from IP 40.76.54.133
+2025-05-24 00:15:45,364 - INFO - Failed login attempt for user admin from IP 198.51.100.56
+2025-05-24 00:15:48,421 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-24 00:15:50,471 - WARNING - [Unusual Login Time] User root logged in from 198.51.100.58
+2025-05-24 00:15:52,515 - INFO - Failed login attempt for user user1 from IP 192.168.1.106
+2025-05-24 00:15:55,570 - INFO - Successful login for user user3 from IP 192.168.1.108
+2025-05-24 00:15:58,655 - INFO - Failed login attempt for user admin from IP 10.0.0.22
+2025-05-24 00:16:00,198 - INFO - Successful login for user system from IP 172.16.0.28
+2025-05-24 00:16:05,310 - INFO - Successful login for user user3 from IP 192.168.1.102
+2025-05-24 00:16:08,385 - INFO - Failed login attempt for user user2 from IP 172.16.0.29
+2025-05-24 08:49:15,824 - INFO - server listening on 0.0.0.0:8765
+2025-05-24 08:49:20,269 - INFO - Successful login for user user2 from IP 192.168.1.102
+2025-05-24 08:49:23,323 - INFO - Failed login attempt for user system from IP 198.51.100.25
+2025-05-24 08:49:26,358 - INFO - Successful login for user user1 from IP 192.168.1.109
+2025-05-24 08:49:27,376 - INFO - Failed login attempt for user admin from IP 45.95.147.24
+2025-05-24 08:49:27,376 - INFO - Failed login attempt for user admin from IP 45.95.147.24
+2025-05-24 08:49:27,377 - WARNING - [Brute Force] User: admin IP: 45.95.147.24 - Multiple failed login attempts (3)
+2025-05-24 08:49:27,379 - INFO - Successfully saved 4 blocked IPs to file
+2025-05-24 08:49:27,379 - INFO - Successfully saved blocked IPs to file
+2025-05-24 08:49:27,379 - INFO - Blocked IP: 45.95.147.24
+2025-05-24 08:49:27,388 - WARNING - [Brute Force] User: admin IP: 45.95.147.24 - Multiple failed login attempts (4)
+2025-05-24 08:49:27,388 - INFO - IP 45.95.147.24 is already blocked
+2025-05-24 08:49:27,390 - WARNING - [Credential Guessing] User admin succeeded login from IP 45.95.147.24 after multiple failed attempts
+2025-05-24 08:49:28,398 - INFO - Successful login for user admin from IP 192.168.1.102
+2025-05-24 08:49:33,459 - INFO - Successful login for user root from IP 192.168.1.107
+2025-05-24 08:49:37,525 - WARNING - [Impossible Travel] User admin logged in from 10.0.0.24
+2025-05-24 08:49:39,064 - WARNING - [Suspicious] Multiple successful logins for user admin from different IPs in last hour: {'192.168.1.101', '192.168.1.102', '10.0.0.24', '45.95.147.24'}
+2025-05-24 08:49:41,086 - INFO - Failed login attempt for user user1 from IP 192.168.1.102
+2025-05-24 08:49:44,151 - INFO - Successful login for user root from IP 172.16.0.29
+2025-05-24 08:49:46,194 - INFO - Successful login for user user1 from IP 192.168.1.101
+2025-05-24 08:49:49,252 - INFO - Failed login attempt for user user2 from IP 10.0.0.26
+2025-05-24 08:49:53,292 - INFO - Failed login attempt for user admin from IP 192.168.1.108
+2025-05-24 08:49:56,356 - INFO - Successful login for user user3 from IP 172.16.0.31
+2025-05-24 08:50:01,468 - INFO - Successful login for user user3 from IP 192.168.1.101
+2025-05-24 08:50:03,498 - INFO - Successful login for user system from IP 172.16.0.32
+2025-05-24 08:50:05,033 - WARNING - [Impossible Travel] User root logged in from 10.0.0.22
+2025-05-24 08:50:07,561 - INFO - Failed login attempt for user user1 from IP 172.16.0.30
+2025-05-24 08:50:10,620 - WARNING - [Impossible Travel] User user3 logged in from 45.95.147.24
+2025-05-24 08:50:14,209 - WARNING - [Suspicious] Multiple successful logins for user user3 from different IPs in last hour: {'192.168.1.101', '192.168.1.103', '172.16.0.31', '45.95.147.24'}
+2025-05-24 08:50:19,321 - INFO - Successful login for user guest from IP 172.16.0.30
+2025-05-24 08:50:21,384 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-24 08:50:25,434 - INFO - Successful login for user guest from IP 192.168.1.108
+2025-05-24 08:50:28,487 - INFO - Failed login attempt for user user3 from IP 40.76.54.132
+2025-05-24 08:50:28,487 - INFO - Failed login attempt for user user3 from IP 40.76.54.132
+2025-05-24 08:50:28,488 - WARNING - [Brute Force] User: user3 IP: 40.76.54.132 - Multiple failed login attempts (3)
+2025-05-24 08:50:28,490 - INFO - Successfully saved 5 blocked IPs to file
+2025-05-24 08:50:28,491 - INFO - Successfully saved blocked IPs to file
+2025-05-24 08:50:28,491 - INFO - Blocked IP: 40.76.54.132
+2025-05-24 08:50:28,494 - WARNING - [Brute Force] User: user3 IP: 40.76.54.132 - Multiple failed login attempts (4)
+2025-05-24 08:50:28,494 - INFO - IP 40.76.54.132 is already blocked
+2025-05-24 08:50:30,513 - INFO - Failed login attempt for user user3 from IP 192.168.1.107
+2025-05-24 08:50:34,615 - WARNING - [Suspicious] Multiple successful logins for user root from different IPs in last hour: {'192.168.1.110', '192.168.1.107', '10.0.0.22', '172.16.0.29'}
+2025-05-24 08:50:38,695 - WARNING - [Suspicious] Multiple successful logins for user user3 from different IPs in last hour: {'192.168.1.101', '172.16.0.31', '192.168.1.103', '10.0.0.25', '45.95.147.24'}
+2025-05-24 08:52:29,853 - INFO - server listening on 0.0.0.0:8765
+2025-05-24 08:52:30,803 - INFO - Failed login attempt for user user2 from IP 198.51.100.23
+2025-05-24 08:52:35,890 - WARNING - [Blacklisted IP] Access attempt from blacklisted IP 192.168.1.100
+2025-05-24 08:52:40,959 - INFO - Failed login attempt for user guest from IP 172.16.0.27
+2025-05-24 08:52:44,018 - INFO - Successful login for user user2 from IP 172.16.0.28
+2025-05-24 08:52:49,093 - INFO - Successful login for user admin from IP 52.32.178.8
+2025-05-24 08:52:49,598 - INFO - Failed login attempt for user guest from IP 192.168.1.105
+2025-05-24 08:52:49,599 - INFO - Failed login attempt for user user1 from IP 192.168.1.105
+2025-05-24 08:52:49,600 - INFO - Failed login attempt for user admin from IP 192.168.1.105
+2025-05-24 08:52:49,601 - INFO - Failed login attempt for user user3 from IP 192.168.1.105
+2025-05-24 08:52:49,602 - INFO - Failed login attempt for user admin from IP 192.168.1.105
+2025-05-24 08:52:49,603 - INFO - Failed login attempt for user user3 from IP 192.168.1.105
+2025-05-24 08:52:53,695 - INFO - Successful login for user guest from IP 198.51.100.23
